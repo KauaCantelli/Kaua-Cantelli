@@ -1,0 +1,130 @@
+#include <stdio.h>  
+
+int soma()
+{
+    
+    double n1=0, n2=0, result=0;
+    
+    printf("Digite o primeiro número: ");
+    scanf("%lf", &n1);
+    
+    printf("Digite o segundo número: ");
+    scanf("%lf", &n2);
+    
+    result = n1 + n2;
+    
+    printf("O resultado da soma de %.0lf + %.0lf = %.2lf\n", n1, n2, result);
+    
+    return 0;
+}
+
+int subtracao()
+{
+    
+    double n1=0, n2=0, result=0;
+    
+    printf("Digite o primeiro número: ");
+    scanf("%lf", &n1);
+    
+    printf("Digite o segundo número: ");
+    scanf("%lf", &n2);
+    
+    result = n1 - n2;
+    
+    printf("O resultado da subtração de %.0lf + %.0lf = %.2lf\n", n1, n2, result);
+    
+    return 0;
+}
+
+int multiplicacao()
+{
+    
+    double n1=0, n2=0, result=0;
+    
+    printf("Digite o primeiro número: ");
+    scanf("%lf", &n1);
+    
+    printf("Digite o segundo número: ");
+    scanf("%lf", &n2);
+    
+    result = n1 * n2;
+    
+    printf("O resultado da multiplicação de %.0lf + %.0lf = %.2lf\n", n1, n2, result);
+    
+    return 0;
+}
+
+int divisao()
+{
+    
+    double n1=0, n2=0, result=0;
+    
+    printf("Digite o primeiro número: ");
+    scanf("%lf", &n1);
+    
+    printf("Digite o segundo número: ");
+    scanf("%lf", &n2);
+    
+    result = n1 / n2;
+    
+    printf("O resultado da divisão de %.0lf + %.0lf = %.2lf\n", n1, n2, result);
+    
+    return 0;
+}
+
+int potenciacao()
+{
+    
+    double base=0, result=1;
+    int expo=0;
+    
+    printf("Digite a base: ");
+    scanf("%lf", &base);
+    
+    printf("Digite o expoente: ");
+    scanf("%d", &expo);
+    
+    for(int i = 0; i < expo; i++){
+         result *= base;
+    }
+    
+    printf("Resultado: %lf", result);
+    
+}
+
+int raizQuadrada()
+{
+    
+    double num1=0, nA, total=0, result=0;
+    
+    printf("Digite o radicando: ");
+    scanf("%lf", &num1);
+    
+    total = num1;
+    
+    for(int i = 0; i < 20; i++)
+    {
+        total = 0.5 * (total + (num1/total));
+    }
+    
+    printf("Raiz quadrada de %lf é: %lf", num1, total);
+    
+}
+
+int fatorial()
+{
+    
+    double num1
+    
+}
+
+
+int main()
+{
+  //soma(); 
+  //subtracao();
+  //multiplicacao();
+  //divisao();
+  //potenciacao();
+  //raizQuadrada();
+}
