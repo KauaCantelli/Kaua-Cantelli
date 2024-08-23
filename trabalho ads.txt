@@ -1,5 +1,6 @@
 #include <stdio.h>  
 
+
 int soma()
 {
     
@@ -113,18 +114,66 @@ int raizQuadrada()
 
 int fatorial()
 {
+
+    double fat = 1, n;
     
-    double num1
+    printf("Digite um número: ");
+    scanf("%lf", &n);
     
+    
+    for (double i = n; i > 1; i--) {
+        fat *= i;
+    }
+    
+    printf("O fatorial do número %lf é: %lf\n", n, fat);
 }
 
 
 int main()
+
 {
-  //soma(); 
-  //subtracao();
-  //multiplicacao();
-  //divisao();
-  //potenciacao();
-  //raizQuadrada();
+
+    int opcao;
+    
+    printf("1 - SOMA\n");
+    printf("2 - SUBTRAÇÃO\n");
+    printf("3 - MULTIPLICAÇÃO\n");
+    printf("4 - DIVISÃO\n");
+    printf("5 - POTENCIAÇÃO\n");
+    printf("6 - RAIZ QUADRADA\n");
+    printf("7 - FATORIAL\n");
+    printf("Escolha um método para fazer: ");
+    scanf("%d", &opcao);
+    
+    
+
+  switch(opcao){
+  case 1:
+  soma();
+  break;
+  
+  case 2:
+  subtracao();
+  break;
+  
+  case 3:
+  multiplicacao();
+  break;
+  
+  case 4:
+  divisao();
+  break;
+  
+  case 5:
+  potenciacao();
+  break;
+  
+  case 6:
+  raizQuadrada();
+  break;
+  
+  case 7:
+  fatorial();
+  break;
+    }
 }
