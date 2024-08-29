@@ -1,0 +1,17 @@
+MODELO OSI:
+
+Conforme torres(2004), para facilitar a interconexão de sistemas de computadores a ISO(International Standards Organization) desenvolveu um modelo de referência chamada OSI(Open Systems Interconections) para que fabricantes pudessem criar protocolos a partir desse modelo.
+
+
+CAMADAS DO MODELO OSI:
+
+Segundo Spurgeon(2000), o modelo de referência OSI é o método para descrever como conjuntos interconectados de hardware e software de redes podem ser organizados para que trabalhem concomitantemente no mundo das redes. Com efeitoo modelo OSI oferece um modo de dividir arbitrariamente a tarefa da rede em pedaços separados, que estão sujeitos ao processo formal de padronização para fazer isso o modelo de referência OSI descreve sete camadas de funções de redes.
+
+
+7 - APLICAÇÃO
+6 - APRESENTAÇÃO
+5 - SESSÃO
+4 - TRANSPORTE
+3 - REDES --> ROTEADORES
+2 - ENLACE DE DADOS --> SWITCHES
+1 - FÍSICO --> HUBS
